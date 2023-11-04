@@ -176,7 +176,7 @@ html , body{
 }
 
 #motive{
-    margin-top: 7vw;
+    margin-top: 9vw;
     padding: 3vw 10vw;
     display: flex;
     justify-content: space-between;
@@ -223,7 +223,10 @@ html , body{
 }
 
 #pictures{
+    margin-top: 10vw;
     padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 #leftpic{
@@ -237,7 +240,40 @@ html , body{
     margin-bottom: 1vw;
 }
 
-#leftpic p{
+#lpic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#leftpic h1, #rightpic h1{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+#leftpic p, #rightpic p{
     margin: 8px 0;
     font-size: 0.8vw;
 }
+
+#rightpic{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#rightpic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#rightpic #rpic{
+    background-color: rgb(255, 0, 0);
+    width: 25vw;
+    height: 37vw;
+}
+
+
+
