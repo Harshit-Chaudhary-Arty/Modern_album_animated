@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "NimbusSanL-Reg";
+    
 }
 
 html , body{
     height: 100%;
     width: 100%;
+    background-color: #cfcfcf;
 }
 
 
@@ -119,6 +121,7 @@ html , body{
     letter-spacing: -0.6;
     width: 60%;
     font-weight: 500;
+    margin-top: 25px;
 }
 
 #elem2 h1{
@@ -170,4 +173,71 @@ html , body{
 #elem3 h3{
     font-weight: 100;
     color: #5e5e5e;
+}
+
+#motive{
+    margin-top: 7vw;
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#motive h2{
+    color: #353535;
+    text-transform: capitalize;
+}
+
+#motive p{
+    margin-top: 4vw;
+    font-weight: 500;
+    letter-spacing: -.12vw;
+    line-height: 1.5;
+    font-size: 2.1vw;
+    text-align: right;
+    width: 90%;
+}
+
+
+#motive .imgbox{
+    background-color: red;
+    border-radius: 45px;
+    height: 50px;
+    width: 110px;
+    display: inline-block;
+    margin: 0 9px;
+    margin-bottom: -12.5px;
+}
+
+#imgbox1{
+    background-image: url();
+    background-position:0 40% ;
+    background-size: cover;
+}
+
+#imgbox2{
+    background-image: url();
+}
+
+#imgbox3{
+    background-image: url();
+}
+
+#pictures{
+    padding: 3vw 10vw;
+}
+
+#leftpic{
+    width: 17vw;
+}
+
+#leftpic #lpic{
+    background-color: red;
+    height: 25vw;
+    width: 100%;
+    margin-bottom: 1vw;
+}
+
+#leftpic p{
+    margin: 8px 0;
+    font-size: 0.8vw;
 }
