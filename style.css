@@ -34,6 +34,11 @@ html , body{
     text-decoration: none;
     color: black;
     font-weight: 800;
+   
+}
+
+.nlink{
+    display: inline block;
 }
 
 #nleft{
@@ -124,7 +129,7 @@ html , body{
     margin-top: 25px;
 }
 
-#elem2 h1{
+#elem2 #ph1{
     font-size: 6vw;
     font-weight: 100;
     letter-spacing: -0.4vw;
@@ -146,7 +151,9 @@ html , body{
 #elem2 #inverth{
     color: aliceblue;
     font-size: 6vw;
+    font-weight: 400;
     display: inline-block;
+    z-index: 55;
 }
 
 
