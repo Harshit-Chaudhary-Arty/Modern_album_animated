@@ -116,6 +116,25 @@ html , body{
     object-fit: cover;
 }
 
+#pic2{
+    transition: 0.7s;
+}
+
+#pic2:hover{
+    scale: 1.04;
+    transition: 1s;
+}
+ 
+#pic1{
+    transition: 0.7s;
+}
+
+#pic1:hover{
+    scale: 1.04;
+    transition: 1s;
+}
+
+
 #imgntext{
     width: fit-content;
     height: fit-content;
@@ -216,17 +235,21 @@ html , body{
 }
 
 #imgbox1{
-    background-image: url();
+    background-image: url(lpic.jpg);
     background-position:0 40% ;
     background-size: cover;
 }
 
 #imgbox2{
-    background-image: url();
+    background-image: url(rpic.jpg);
+    background-position:60% 40% ;
+
 }
 
 #imgbox3{
-    background-image: url();
+    background-image: url(rpic2.jpg);
+    background-position:0% 20% ;
+
 }
 
 #pictures{
