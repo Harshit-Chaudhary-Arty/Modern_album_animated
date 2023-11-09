@@ -27,6 +27,7 @@ Shery.textAnimate("#headings h1" /* Element to target.*/, {
     stagger:0.3,
   })
   
+  
 
 
 // Shery.imageEffect("#elem1  #image1wrapper img",{
@@ -34,3 +35,23 @@ Shery.textAnimate("#headings h1" /* Element to target.*/, {
 //     debug:true,
 //     config:{"uColor":{"value":true},"uSpeed":{"value":0.71,"range":[0.1,1],"rangep":[1,10]},"uAmplitude":{"value":1.69,"range":[0,5]},"uFrequency":{"value":2.31,"range":[0,10]},"geoVertex":{"range":[1,64],"value":21.31},"zindex":{"value":"1","range":[-9999999,9999999]},"aspect":{"value":0.5459149673463948},"gooey":{"value":false},"infiniteGooey":{"value":false},"growSize":{"value":4,"range":[1,15]},"durationOut":{"value":1,"range":[0.1,5]},"durationIn":{"value":1.5,"range":[0.1,5]},"displaceAmount":{"value":0.5},"masker":{"value":true},"maskVal":{"value":1.1,"range":[1,5]},"scrollType":{"value":0},"noEffectGooey":{"value":true},"onMouse":{"value":0},"noise_speed":{"value":0.2,"range":[0,10]},"metaball":{"value":0.2,"range":[0,2]},"discard_threshold":{"value":0.5,"range":[0,1]},"antialias_threshold":{"value":0.002,"range":[0,0.1]},"noise_height":{"value":0.5,"range":[0,2]},"noise_scale":{"value":10,"range":[0,100]}},
 // })
+
+
+function videoconAnimation(){
+var videocon= document.querySelector("body")
+var pointer= document.querySelector("#pointer")
+videocon.addEventListener("mouseenter",function(){
+  gsap.to(pointer,{
+      scale:1,
+      opacity:1
+  })
+
+})
+videocon.addEventListener("mousemove",function(dets){
+  gsap.to(pointer,{
+      left:dets.x,
+      top:dets.y
+  })
+})
+}
+videoconAnimation()
